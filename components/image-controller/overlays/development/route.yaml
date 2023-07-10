@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: image-controller
     app.kubernetes.io/part-of: build
-  name: image-controlleru5h2
+  name: image-controlleru24o
 spec:
   port:
     targetPort: 8080
