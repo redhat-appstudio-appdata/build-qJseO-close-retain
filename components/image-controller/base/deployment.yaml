@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: image-controller
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/build/image-controller@sha256:87e1515270206d551cd58e13b21cb429fa2da2b91dfb76cb6cc9cba3b3d9af41
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/build/image-controller@sha256:2642ea07ea595821ce013880f35f93fa6b0cb0618c7b9bc480bdad15caa1b66d
         imagePullPolicy: Always
         name: container-image
         ports:
